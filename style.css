@@ -164,7 +164,6 @@ footer {
   .logo,
   .collections {
     grid-template-columns: repeat(1, 1fr);
-    align-items: center;
   }
   .influencer,
   .logo,
@@ -174,9 +173,7 @@ footer {
   .header-style {
     text-align: start;
   }
-  form{
-    width: 100%;
-  }
+
   footer {
     width: 100%;
     color: #fff;
