@@ -158,4 +158,19 @@ footer {
   .product-title {
     padding-left: 0px;
   }
+  .influencers {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .influencer{
+    padding: 5%;
+  }
+  .logo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .logo img{
+    padding: 2% 5% 0% 5% ;
+  }
 }
