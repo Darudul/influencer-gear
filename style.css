@@ -50,7 +50,7 @@ main {
 }
 /* journey as influencer styles end */
 /* popular collection start */
-.header-style{
+.header-style {
   text-align: center;
 }
 .collections .collection .thumbnail {
@@ -63,22 +63,21 @@ main {
   align-items: center;
   width: 329px;
   padding: 0px;
-  
 }
-.collection{
-  margin:25px 25px 10px 0;
+.collection {
+  margin: 25px 25px 10px 0;
   border: 1px solid #ffff;
   border-radius: 10px;
   background: #fff;
   padding: 10px;
 }
 
-.button-position{
+.button-position {
   display: flex;
   margin-left: 700px;
-  justify-content: end; 
+  justify-content: end;
 }
-.see-more{
+.see-more {
   color: #e02c6d;
   font-size: 12px;
   font-weight: 600;
@@ -89,18 +88,27 @@ main {
 }
 /* popular collection end */
 /* form styles start */
-form{
+form {
   background: orange;
   width: 350px;
   padding-left: 100px;
   border: 1px solid sandybrown;
   border-radius: 30px;
-  
 }
-.submit-reset{
+.submit-reset {
   color: brown;
   background: #fff;
   padding: 5px 20px;
   border: 1px solid sandybrown;
   border-radius: 10px;
+}
+/* form styles end */
+/* footer start */
+footer {
+  color: #fff;
+  background: black;
+  text-align: center;
+}
+.social-media i{
+   padding-right: 10px;
 }
