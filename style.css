@@ -45,7 +45,8 @@ main {
   width: 440px;
 }
 .influencers {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
   align-items: center;
 }
 .span {
@@ -73,7 +74,8 @@ main {
 /* journey as influencer styles end */
 /* company logo start */
 .logo {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
   align-items: center;
   justify-content: space-between;
   border-top: 1px solid rgba(128, 128, 128, 0.378);
@@ -158,19 +160,23 @@ footer {
   .product-title {
     padding-left: 0px;
   }
-  .influencers {
-    display: grid;
+  .influencers,
+  .logo,
+  .collections {
     grid-template-columns: repeat(1, 1fr);
+    align-items: center;
   }
-  .influencer{
-    padding: 5%;
-  }
-  .logo {
-    display: flex;
+  .influencer,
+  .logo,
+  .collection {
     flex-direction: column;
-    align-items: flex-start;
   }
-  .logo img{
-    padding: 2% 5% 0% 5% ;
+  .header-style {
+    text-align: start;
+  }
+  footer {
+    color: #fff;
+    background: black;
+    padding-right: 30%;
   }
 }
