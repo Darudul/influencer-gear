@@ -147,37 +147,3 @@ footer {
 }
 /* footer style end */
 /* media quiris */
-@media only screen and (max-width: 688px) {
-  .container {
-    width: 100%;
-  }
-  .navbar ul .nav {
-    display: block;
-  }
-  .nav-style .style {
-    display: block;
-  }
-  .product-title {
-    padding-left: 0px;
-  }
-  .influencer,
-  .logo,
-  .collections {
-    grid-template-columns: repeat(1, 1fr);
-  }
-  .influencer,
-  .logo,
-  .collection {
-    flex-direction: column;
-  }
-  .header-style {
-    text-align: start;
-  }
-
-  footer {
-    width: 100%;
-    color: #fff;
-    background: black;
-    text-align: center;
-  }
-}
