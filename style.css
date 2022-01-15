@@ -30,10 +30,23 @@ main {
   display: block;
 }
 .button {
+  color: #fff;
+  font-size: 12px;
+  font-weight: 600;
   background: #e02c6d;
   padding: 10px 20px;
   border: 1px solid #e02c6d;
   border-radius: 41px;
+}
+.fa-star.filled {
+  color: #fb8200;
+}
+.fa-star.empty {
+  color: gainsboro;
+}
+.collection-style {
+  font-family: Inter;
+  color: #787885;
 }
 /* journey as influencer styles end */
 /* popular collection start */
@@ -41,7 +54,7 @@ main {
   text-align: center;
 }
 .collections .collection .thumbnail {
-  width: 325px;
+  width: 285px;
   height: 256px;
 }
 .collections {
@@ -59,15 +72,20 @@ main {
   background: #fff;
   padding: 10px;
 }
-.tripod-style {
-  font-family: Inter;
-  color: #787885;
+
+.button-position{
+  display: flex;
+  margin-left: 700px;
+  justify-content: end; 
 }
-.fa-star.filled {
-  color: #fb8200;
-}
-.fa-star.empty {
-  color: gainsboro;
+.see-more{
+  color: #e02c6d;
+  font-size: 12px;
+  font-weight: 600;
+  background-color: honeydew;
+  padding: 10px 30px;
+  border: 1px solid aliceblue;
+  border-radius: 40px;
 }
 /* popular collection end */
 
