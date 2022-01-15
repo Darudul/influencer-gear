@@ -13,12 +13,12 @@ main {
   align-items: center;
 }
 /* navbar start */
-.navbar ul .nav{
+.navbar ul .nav {
   display: flex;
   align-items: center;
   justify-content: space-around;
 }
-.product-title{
+.product-title {
   padding-left: 180px;
 }
 
@@ -30,8 +30,8 @@ main {
   text-decoration: none;
   color: #000;
 }
-.nav-style .style{
-  display: flex; 
+.nav-style .style {
+  display: flex;
 }
 /* nav styles end */
 
@@ -72,13 +72,13 @@ main {
 }
 /* journey as influencer styles end */
 /* company logo start */
-.logo{
-   display: flex;
-   align-items: center;
-   justify-content: space-between;
-   border-top: 1px solid rgba(128, 128, 128, 0.378);
-   border-bottom: 1px solid rgba(128, 128, 128, 0.378);
-   padding: 10px 0px;
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 1px solid rgba(128, 128, 128, 0.378);
+  border-bottom: 1px solid rgba(128, 128, 128, 0.378);
+  padding: 10px 0px;
 }
 /* popular collection start */
 .header-style {
@@ -144,3 +144,18 @@ footer {
   padding-right: 10px;
 }
 /* footer style end */
+/* media quiris */
+@media only screen and (max-width: 688px) {
+  .container {
+    width: 100%;
+  }
+  .navbar ul .nav {
+    display: block;
+  }
+  .nav-style .style {
+    display: block;
+  }
+  .product-title {
+    padding-left: 0px;
+  }
+}
