@@ -160,7 +160,7 @@ footer {
   .product-title {
     padding-left: 0px;
   }
-  .influencers,
+  .influencer,
   .logo,
   .collections {
     grid-template-columns: repeat(1, 1fr);
