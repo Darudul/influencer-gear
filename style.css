@@ -88,4 +88,19 @@ main {
   border-radius: 40px;
 }
 /* popular collection end */
-
+/* form styles start */
+form{
+  background: orange;
+  width: 350px;
+  padding-left: 100px;
+  border: 1px solid sandybrown;
+  border-radius: 30px;
+  
+}
+.submit-reset{
+  color: brown;
+  background: #fff;
+  padding: 5px 20px;
+  border: 1px solid sandybrown;
+  border-radius: 10px;
+}
