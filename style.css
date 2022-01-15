@@ -5,6 +5,7 @@ body {
   font-family: "Poppins", sans-serif;
   margin: 0;
   padding: 0;
+  background: whitesmoke;
 }
 main {
   display: flex;
@@ -15,7 +16,7 @@ main {
 /* journey as influencer styles start */
 
 .container {
-  width: 870px;
+  width: 970px;
 }
 
 .influencer img {
@@ -34,3 +35,39 @@ main {
   border: 1px solid #e02c6d;
   border-radius: 41px;
 }
+/* journey as influencer styles end */
+/* popular collection start */
+.header-style{
+  text-align: center;
+}
+.collections .collection .thumbnail {
+  width: 325px;
+  height: 256px;
+}
+.collections {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  width: 329px;
+  padding: 0px;
+  
+}
+.collection{
+  margin:25px 25px 10px 0;
+  border: 1px solid #ffff;
+  border-radius: 10px;
+  background: #fff;
+  padding: 10px;
+}
+.tripod-style {
+  font-family: Inter;
+  color: #787885;
+}
+.fa-star.filled {
+  color: #fb8200;
+}
+.fa-star.empty {
+  color: gainsboro;
+}
+/* popular collection end */
+
