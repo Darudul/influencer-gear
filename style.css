@@ -198,10 +198,10 @@ footer {
     width: 45%;
     margin: 0 25%;
   }
-  .button-position{
+  .button-position {
     margin-right: 30%;
   }
-  
+
   form {
     padding: 0;
     margin: 0;
@@ -227,24 +227,24 @@ footer {
     align-items: center;
   }
   .influencer img {
-    width: 95%;
-    padding: 2.5%;
+    width: 90%;
+    padding: 5%;
   }
   .banner-title {
-    width: 90%;
-    margin: 5%;
+    width: 80%;
+    margin: 10%;
   }
   .description {
-    width: 90%;
-    margin: 5%;
+    width: 80%;
+    margin: 2% 10%;
   }
   .button {
-    margin: 5%;
+    margin: 10%;
   }
   .logo {
     grid-template-columns: repeat(3, 1fr);
-    width: 70%;
-    margin: 5% 15%;
+    width: 50%;
+    margin: 5% 25%;
   }
   .header-style {
     text-align: start;
@@ -252,8 +252,8 @@ footer {
   }
   .collections {
     grid-template-columns: repeat(2, 1fr);
-    width: 70%;
-    margin: 0 15%;
+    width: 80%;
+    margin: 0 10%;
   }
   .button-position {
     display: block;
