@@ -162,9 +162,10 @@ footer {
   .container {
     width: 100%;
   }
-  .product-title {
-    text-align: start;
+  .header {
+    margin: 0 5%;
   }
+
   .influencers {
     grid-template-columns: repeat(1, 1fr);
     align-items: center;
@@ -173,28 +174,41 @@ footer {
     width: 100%;
   }
   .banner-title {
-    width: 100%;
+    width: 90%;
+    margin: 0 5%;
   }
   .description {
-    width: 100%;
+    width: 90%;
+    margin: 2% 5%;
+  }
+  .button-left {
+    margin: 5%;
   }
   .logo {
     grid-template-columns: repeat(2, 1fr);
-    width: 100%;
+    width: 70%;
+    margin: 0 15%;
   }
   .header-style {
     text-align: start;
+    margin: 5% 15%;
   }
   .collections {
     grid-template-columns: repeat(1, 1fr);
-    width: 100%;
+    width: 45%;
+    margin: 0 25%;
   }
+  .button-position{
+    margin-right: 30%;
+  }
+  
   form {
     padding: 0;
     margin: 0;
     grid-template-columns: repeat(1, 1fr);
     background: whitesmoke;
-    width: 100%;
+    width: 50%;
+    margin: 0 25%;
     border: none;
   }
 }
@@ -205,9 +219,9 @@ footer {
   .container {
     width: 100%;
   }
-   .header{
-     margin: 0 5%;
-   }
+  .header {
+    margin: 0 5%;
+  }
   .influencers {
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
@@ -230,7 +244,7 @@ footer {
   .logo {
     grid-template-columns: repeat(3, 1fr);
     width: 70%;
-    margin:5% 15%;
+    margin: 5% 15%;
   }
   .header-style {
     text-align: start;
@@ -254,3 +268,4 @@ footer {
     border: none;
   }
 }
+/* tablet style end */
