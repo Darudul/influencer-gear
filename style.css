@@ -186,8 +186,8 @@ footer {
   }
   .logo {
     grid-template-columns: repeat(2, 1fr);
-    width: 70%;
-    margin: 0 15%;
+    width: 90%;
+    margin: 0 5%;
   }
   .header-style {
     text-align: start;
@@ -208,8 +208,8 @@ footer {
     margin: 0;
     grid-template-columns: repeat(1, 1fr);
     background: whitesmoke;
-    width: 80%;
-    margin: 0 10%;
+    width: 90%;
+    margin: 0 5%;
     border: none;
   }
 }
@@ -232,7 +232,7 @@ footer {
     padding: 5%;
   }
   .banner-title {
-    width: 80%;
+    width: 90%;
     margin: 10%;
   }
   .description {
@@ -244,8 +244,8 @@ footer {
   }
   .logo {
     grid-template-columns: repeat(3, 1fr);
-    width: 50%;
-    margin: 5% 25%;
+    width: 90%;
+    margin: 5% 5%;
   }
   .header-style {
     text-align: start;
@@ -253,8 +253,8 @@ footer {
   }
   .collections {
     grid-template-columns: repeat(2, 1fr);
-    width: 80%;
-    margin: 0 10%;
+    width: 90%;
+    margin: 0 5%;
   }
   .button-position {
     display: block;
@@ -262,11 +262,12 @@ footer {
   }
   form {
     padding: 0;
-    margin: 0 15%;
+    margin: 0 5%;
     grid-template-columns: repeat(1, 1fr);
     background: whitesmoke;
-    width: 70%;
+    width: 90%;
     border: none;
   }
+  
 }
 /* tablet style end */
