@@ -115,6 +115,7 @@ main {
   display: flex;
   flex-direction: column;
   align-items: end;
+  padding-bottom: 10px;
 }
 .see-more {
   color: #e02c6d;
@@ -195,5 +196,61 @@ footer {
     background: whitesmoke;
     width: 100%;
     border: none;
+  }
 }
+/* media quires for phone end */
+
+/* media quires for tap end */
+@media (min-width: 688px) and (max-width: 912px) {
+  .container {
+    width: 100%;
+  }
+   .header{
+     margin: 0 5%;
+   }
+  .influencers {
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+  }
+  .influencer img {
+    width: 95%;
+    padding: 2.5%;
+  }
+  .banner-title {
+    width: 90%;
+    margin: 5%;
+  }
+  .description {
+    width: 90%;
+    margin: 5%;
+  }
+  .button {
+    margin: 5%;
+  }
+  .logo {
+    grid-template-columns: repeat(3, 1fr);
+    width: 70%;
+    margin:5% 15%;
+  }
+  .header-style {
+    text-align: start;
+    margin: 0 15%;
+  }
+  .collections {
+    grid-template-columns: repeat(2, 1fr);
+    width: 70%;
+    margin: 0 15%;
+  }
+  .button-position {
+    display: block;
+    margin: 0 0 0 35%;
+  }
+  form {
+    padding: 0;
+    margin: 0 15%;
+    grid-template-columns: repeat(1, 1fr);
+    background: whitesmoke;
+    width: 70%;
+    border: none;
+  }
 }
