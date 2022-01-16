@@ -6,52 +6,60 @@ body {
   margin: 0;
   padding: 0;
   background: whitesmoke;
+  box-sizing: border-box;
 }
+
 main {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-/* navbar start */
-.navbar ul .nav {
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
+.header {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: large;
 }
-.product-title {
-  padding-left: 180px;
+.container {
+  width: 870px;
 }
-
-.navbar ul li {
-  list-style: none;
-  padding: 20px;
-}
-.navbar ul li a {
-  text-decoration: none;
-  color: #000;
-}
-.nav-style .style {
-  display: flex;
-}
-/* nav styles end */
 
 /* journey as influencer styles start */
 
-.container {
-  width: 970px;
-}
-
 .influencer img {
-  width: 440px;
+  width: 240px;
 }
 .influencers {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   align-items: center;
 }
-.span {
-  display: block;
+
+.animation {
+  position: relative;
 }
+.animation::before {
+  content: "Influencer";
+  width: 100%;
+  color: #2ed573;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-right: 0.4rem solid #2ed573;
+  animation: slide 3s linear infinite;
+  -webkit-animation: slide 3s linear infinite;
+  overflow: hidden;
+}
+@keyframes slide {
+  0% {
+    width: 0%;
+  }
+  50% {
+    width: 100%;
+  }
+  100% {
+    width: 0%;
+  }
+}
+
 .button {
   color: #fff;
   font-size: 12px;
@@ -87,14 +95,14 @@ main {
   text-align: center;
 }
 .collections .collection .thumbnail {
-  width: 285px;
-  height: 256px;
+  width: 200px;
+  height: auto;
 }
 .collections {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   align-items: center;
-  width: 329px;
+  width: 229px;
   padding: 0px;
 }
 .collection {
@@ -102,32 +110,32 @@ main {
   border: 1px solid #ffff;
   border-radius: 10px;
   background: #fff;
-  padding: 10px;
 }
-
 .button-position {
   display: flex;
-  margin-left: 700px;
-  justify-content: end;
+  flex-direction: column;
+  align-items: end;
 }
 .see-more {
   color: #e02c6d;
   font-size: 12px;
   font-weight: 600;
   background-color: honeydew;
-  padding: 10px 30px;
+  padding: 10px 20px;
   border: 1px solid aliceblue;
   border-radius: 40px;
 }
 /* popular collection end */
 /* form styles start */
 form {
-  background: orange;
-  width: 350px;
-  padding-left: 100px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  background: white;
+  padding: 20px;
   border: 1px solid sandybrown;
   border-radius: 30px;
 }
+
 .submit-reset {
   color: brown;
   background: #fff;
@@ -139,6 +147,8 @@ form {
 /* footer start */
 footer {
   color: #fff;
+  margin-top: 30px;
+  padding: 15px 0;
   background: black;
   text-align: center;
 }
@@ -146,4 +156,44 @@ footer {
   padding-right: 10px;
 }
 /* footer style end */
-/* media quiris */
+/* media quires for phone*/
+@media (max-width: 688px) {
+  .container {
+    width: 100%;
+  }
+  .product-title {
+    text-align: start;
+  }
+  .influencers {
+    grid-template-columns: repeat(1, 1fr);
+    align-items: center;
+  }
+  .influencer img {
+    width: 100%;
+  }
+  .banner-title {
+    width: 100%;
+  }
+  .description {
+    width: 100%;
+  }
+  .logo {
+    grid-template-columns: repeat(2, 1fr);
+    width: 100%;
+  }
+  .header-style {
+    text-align: start;
+  }
+  .collections {
+    grid-template-columns: repeat(1, 1fr);
+    width: 100%;
+  }
+  form {
+    padding: 0;
+    margin: 0;
+    grid-template-columns: repeat(1, 1fr);
+    background: whitesmoke;
+    width: 100%;
+    border: none;
+}
+}
